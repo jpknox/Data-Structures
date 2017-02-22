@@ -1,4 +1,4 @@
-package jpknox.src.singlylinkedlist;
+package jpknox.singlylinkedlist;
 
 /**
  * Created by Joao Paulo Knox on 22/02/17.
