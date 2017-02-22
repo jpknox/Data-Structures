@@ -42,6 +42,8 @@ public class SinglyLinkedListDemo {
         System.out.println(list.removeNode(15));
         list.displayList();
 
+        System.out.println(list.removeNode(99));
+
 
         System.out.println("Thanks for popping by! :)");
     }
@@ -102,7 +104,7 @@ class SinglyLinkedList {
             current = current.getNext();
         }
 
-        return null;                //nothing found
+        return "Nothing found with id : " + id;                //nothing found
     }
 
     public String findNode(int id) {
